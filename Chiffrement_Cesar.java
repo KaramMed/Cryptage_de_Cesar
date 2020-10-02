@@ -48,8 +48,8 @@ public class Chiffrement_Cesar {
 	}
 	
 	public static void main(String[] args) {
-		System.out.println(chiffrer("laracraft",2));
-		System.out.println(dechiffrer("a",1));
+		System.out.println(chiffrer("laracraft",2));    // donne : nctcetchv
+		System.out.println(dechiffrer("nctcetchv",2));  // donne : laracraft
 	}
 
 }
